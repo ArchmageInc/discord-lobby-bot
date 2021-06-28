@@ -33,7 +33,7 @@ If this is running directly on a machine with all the appropreate libraries and 
 This bot can also be simply run using the pre-built docker image:
 
 * With `.env` file - `docker run -d --env-file .env --name lobby-bot archmageinc/lobby-bot` 
-* With passed env vars - `docker run -d -e BOT_TOKEN=MySuperSecretTokenThatIShouldNeverShare -e PUBG_TOKEN=AnotherSecretTokenThatIShouldNeverShare --env-file .env --name lobby-bot archmageinc/lobby-bot`
+* With passed env vars - `docker run -d -e BOT_TOKEN=MySuperSecretTokenThatIShouldNeverShare -e PUBG_TOKEN=AnotherSecretTokenThatIShouldNeverShare --name lobby-bot archmageinc/lobby-bot`
 
 ## Discord Commands
 
