@@ -33,16 +33,14 @@ If this is running directly on a machine with all the appropreate libraries and 
 This bot can also be simply run using the pre-built docker image:
 
 * With `.env` file - `docker run -d --env-file .env --name lobby-bot archmageinc/lobby-bot` 
-* With passed env vars - `docker run -d -e BOT_TOKEN=MySuperSecretTokenThatIShouldNeverShare -e PUBG_TOKEN=AnotherSecretTokenThatIShouldNeverShare --env-file .env --name lobby-bot archmageinc/lobby-bot`
+* With passed env vars - `docker run -d -e BOT_TOKEN=MySuperSecretTokenThatIShouldNeverShare -e PUBG_TOKEN=AnotherSecretTokenThatIShouldNeverShare --name lobby-bot archmageinc/lobby-bot`
 
 ## Discord Commands
 
 Once the Bot is joined to your Server/Guild, the following commands are currently available:
 
-* **`!join`** - This forces the Bot to join the voice channel you are currently connected to.
-* **`!play <text>`** - This will have the Bot speak whatever `<text>` is supplied in the voice channel you are currently connected to.
-* **`!leave`** - This will have the Bot leave the voice channel it is connected to.
-* **`!stats <PUBG Player Name>`** - This will have the Bot fetch statistics for the PUBG Player. *Player Names are case sensitive*.
+* **`!say <text>`** - This will have the Bot speak whatever `<text>` is supplied in the voice channel you are currently connected to.
+* **`!pubg <PUBG Player Name>`** - This will have the Bot fetch statistics for the PUBG Player. *Player Names are case sensitive*.
 
 ## Notes
 
