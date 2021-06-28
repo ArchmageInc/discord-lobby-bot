@@ -39,10 +39,8 @@ This bot can also be simply run using the pre-built docker image:
 
 Once the Bot is joined to your Server/Guild, the following commands are currently available:
 
-* **`!join`** - This forces the Bot to join the voice channel you are currently connected to.
-* **`!play <text>`** - This will have the Bot speak whatever `<text>` is supplied in the voice channel you are currently connected to.
-* **`!leave`** - This will have the Bot leave the voice channel it is connected to.
-* **`!stats <PUBG Player Name>`** - This will have the Bot fetch statistics for the PUBG Player. *Player Names are case sensitive*.
+* **`!say <text>`** - This will have the Bot speak whatever `<text>` is supplied in the voice channel you are currently connected to.
+* **`!pubg <PUBG Player Name>`** - This will have the Bot fetch statistics for the PUBG Player. *Player Names are case sensitive*.
 
 ## Notes
 
